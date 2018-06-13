@@ -17,13 +17,13 @@ You can run this container from the Docker registry and mount your local sources
 
 ```bash
 cd path/to/your/scripts
-docker run -it --rm -v $(pwd):/apps fountainalgo:deno-examples bash
+docker run -it --rm -v $(pwd):/apps fountainalgo:awesome-deno bash
 ```
 
 ## Building the image
 
 ```bash
-git clone https://github.com/fountainalgo/deno-examples
+git clone https://github.com/fountainalgo/awesome-deno
 cd deno-examples
 make build && make run
 ```
